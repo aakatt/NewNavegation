@@ -13,7 +13,7 @@ class FragmentTwo : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_two, container, false)
+        val view = inflater.inflate(R.layout.nav_fragment_two, container, false)
 
         view.setOnClickListener { Navigation.findNavController(view).navigate(R.id.action_fragmentTwo_to_fragmentOne) }
 
